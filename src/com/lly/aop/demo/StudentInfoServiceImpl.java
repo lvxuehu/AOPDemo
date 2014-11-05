@@ -9,5 +9,13 @@ package com.lly.aop.demo;
 public class StudentInfoServiceImpl implements StudentInfoService {
     @Override
     public void findInfo(String studentName) {
-        System.out.println("your name is :"+studentName);    }
+        System.out.println("\nyour name is :"+studentName);
+    }
+
+    @Override
+    public void getName(String uname) {
+        System.out.println("\n---------your name is :"+uname);
+    }
+
+
 }

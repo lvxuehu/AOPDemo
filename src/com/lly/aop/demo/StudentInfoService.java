@@ -8,4 +8,5 @@ package com.lly.aop.demo;
  */
 public interface StudentInfoService {
     void findInfo(String studentName);
+    void getName(String uname);
 }
